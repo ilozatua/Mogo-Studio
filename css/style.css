@@ -1076,7 +1076,9 @@
 	.story{
 		font-size: 25px;
 	}
-
+	.whatwedo{
+		font-size: 25px;
+	}
 
 	.joshua{
 		margin-top: 20px;
@@ -1249,14 +1251,6 @@
 		padding-bottom: 20px;
 		padding-right: 20px;
 	}
-
-	.story2{
-		display: none;
-	}
-
-	.whatwedo2{
-		display: none;
-	}
 	.xazi4{
 		margin-top: 10px;
 	}
@@ -1313,14 +1307,6 @@
 		font-size: 32px;
 		display: flex;
 		justify-content: center;
-	}
-
-	.story2{
-		display: none;
-	}
-
-	.whatwedo2{
-		display: none;
 	}
 
 	.whatwedo{
@@ -1422,14 +1408,6 @@
 		justify-content: center;
 	}
 
-	.story2{
-		display: none;
-	}
-
-	.whatwedo2{
-		display: none;
-	}
-
 	.imgphotography{
 		max-width: 400px;
 	}
@@ -1482,15 +1460,7 @@
 
 	.blogphotosize{
 	max-width: 350px;
-	}
-
-	.story2{
-		display: none;
-	}
-
-	.whatwedo2{
-		display: none;
-	}
+}
 
 	.sct5bg{
 		height: 700px;
@@ -1537,13 +1507,7 @@
 
 	}
 
-	.story2{
-		display: none;
-	}
 
-	.whatwedo2{
-		display: none;
-	}
 
 	.tomogo{
 		font-size: 40px;
