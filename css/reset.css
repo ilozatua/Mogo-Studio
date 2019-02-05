@@ -52,8 +52,3 @@ a{
 *{
 	box-sizing: border-box;
 }
-
-input
-    {
-     border-color: none;
-    }
