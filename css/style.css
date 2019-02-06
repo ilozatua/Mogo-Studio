@@ -123,11 +123,19 @@
 	font-family: 'Montserrat-bold';
 	padding: 15px 28px;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .learnmore:hover{
 	border: 5px dotted red;
 	color: red;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+
 }
 
 /*section2*/
@@ -284,6 +292,7 @@
 	display: flex;
 	align-items: flex-start;
 	max-width: 340px;
+	cursor: pointer;
 }
 .photography:hover{
 	-webkit-transform: scale(1);
@@ -557,12 +566,21 @@
 	justify-content: center;
 }
 
-.image4:hover + .hoverboxmain{
+.boximage:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.hoverboxmain{
 	display: flex;
 }
 
 .hoverboxmain{
-	display: none;
+	display: flex;
 	position: absolute;
 	top: 205px;
 }
@@ -668,8 +686,8 @@
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 
@@ -764,9 +782,8 @@
 .blogphoto{
 	position: relative;
 	margin-top: 30px;
+	cursor: pointer;
 }
-
-
 
 
 .blogdate :hover{
@@ -1064,6 +1081,9 @@
 		max-width: 1670px;
 		width:100%;
 	}
+	.section9{
+		padding-bottom: 40px;
+	}
 
 	.story2{
 		display: none;
@@ -1165,6 +1185,9 @@
 		padding-top: 70px;
 
 	}
+	.section9{
+		padding-bottom: 40px;
+	}
 
 	.lorem2{
 		display: none
@@ -1205,6 +1228,7 @@
 		flex-wrap: wrap;
 	}
 
+
 	.logosbox{
 		max-width: 900px;
 	}
@@ -1220,6 +1244,9 @@
 	.map{
 		display: none;
 	}
+	.tablet{
+		left: 25%;
+	}
 
 }
 
@@ -1229,6 +1256,9 @@
 		max-width: 700px;
 	}
 
+	.section9{
+		padding-bottom: 40px;
+	}
 	.logosbox{
 		max-width: 700px;
 	}
@@ -1296,6 +1326,13 @@
 	.blogs{
 		margin-top: 30px;
 	}
+	.story2{
+		display: none;
+	}
+
+	.whatwedo2{
+		display: none;
+	}
 
 }
 
@@ -1333,7 +1370,7 @@
 	}
 
 	.tablet{
-		left: 5%;
+		left: 10%;
 		max-width: 400px;
 	}
 
@@ -1396,6 +1433,13 @@
 	.section2{
 		padding-bottom: 40px;
 	}
+	.story2{
+		display: none;
+	}
+
+	.whatwedo2{
+		display: none;
+	}
 }
 
 @media (max-width: 600px){
@@ -1446,6 +1490,13 @@
 	.section2{
 		padding-bottom: 40px;
 	}
+	.story2{
+		display: none;
+	}
+
+	.whatwedo2{
+		display: none;
+	}
 }
 
 @media (max-width: 480px){
@@ -1460,7 +1511,7 @@
 
 	.blogphotosize{
 	max-width: 350px;
-}
+	}
 
 	.sct5bg{
 		height: 700px;
@@ -1490,6 +1541,13 @@
 	.section2{
 		padding-bottom: 40px;
 	}
+	.story2{
+		display: none;
+	}
+
+	.whatwedo2{
+		display: none;
+	}
 }
 
 
@@ -1516,6 +1574,7 @@
 
 	.tablet{
 		max-width: 300px;
+		left: 5lea%;
 	}
 	.mobile{
 		max-width: 150px;
@@ -1578,6 +1637,13 @@
 	.blogphoto{
 		max-width: 300px;
 	}
+	.story2{
+		display: none;
+	}
+
+	.whatwedo2{
+		display: none;
+	}
 }
 
 @media (max-width: 320px;){
@@ -1587,6 +1653,13 @@
 
 	.blogphoto{
 		max-width: 250px;
+	}
+	.story2{
+		display: none;
+	}
+
+	.whatwedo2{
+		display: none;
 	}
 
 	.story{
